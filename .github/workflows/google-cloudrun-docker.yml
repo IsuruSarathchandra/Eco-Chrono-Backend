@@ -80,7 +80,7 @@ jobs:
         id: auth
         uses: 'google-github-actions/auth@v1'
         with:
-          credentials_json: '${{ secrets.WIF_SERVICE_ACCOUNT }}''
+          credentials_json: '${{ secrets.WIF_SERVICE_ACCOUNT }}'
 
       # BEGIN - Docker auth and build (NOTE: If you already have a container image, these Docker steps can be omitted)
 
